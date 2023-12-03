@@ -1,0 +1,68 @@
+/* Style Support */
+
+.support-con {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: flex-start;
+  width: 100%;
+  align-content: flex-start;
+  grid-area: r;
+  margin-top: 1rem;
+  row-gap: 0.9rem;
+}
+
+.support-con > span {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.25rem;
+  letter-spacing: -0.0125rem;
+}
+
+.link-title {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.00963rem;
+}
+
+.link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 0.4rem;
+  text-decoration: none;
+  padding: 0.3rem 0.9rem;
+}
+
+.svg-lamp {
+  margin-left: 0.3em;
+}
+
+.active {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 0.4rem;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  text-decoration: underline blue;
+  color: blue;
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.9rem;
+  background: rgba(27, 89, 248, 0.1);
+}
+
+.active > .link-title {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: underline blue;
+  color: blue;
+}

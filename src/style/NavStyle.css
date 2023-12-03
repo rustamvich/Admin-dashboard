@@ -1,0 +1,102 @@
+/* Style */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+main {
+  display: grid;
+}
+
+.navigation-bar {
+  display: grid;
+  justify-content: center;
+  align-content: flex-start;
+  height: 35.2rem;
+  padding-right: 0.4rem;
+  border: 1px solid black;
+  grid-template-areas:
+    "a a a a"
+    "d d d d"
+    "r r r r";
+  width: 16rem;
+  border-radius: 0 1.25rem 1.25rem 0;
+  border: 1px solid #eff0f6;
+  background: #fff;
+  padding-top: 1rem;
+  overflow-y: auto;
+}
+
+.logo-box {
+  display: grid;
+  grid-template-columns: auto auto;
+  place-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+  column-gap: .8rem;
+  grid-area: a;
+}
+
+.logo-box > h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  grid-area: d;
+  row-gap: 1rem;
+}
+
+.link {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.link > span {
+  color: #000;
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  padding: 0.3rem 0;
+  font-weight: 500;
+  line-height: normal;
+  outline: none;
+}
+
+.active {
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: bold;
+  color: #1b59f8;
+  line-height: normal;
+  border-radius: 0.625rem;
+  background: rgba(27, 89, 248, 0.1);
+}
+
+.active > span {
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: bold;
+  color: #1b59f8;
+  line-height: normal;
+  letter-spacing: -0.00963rem;
+}
+
+.supports {
+  grid-area: r;
+}
