@@ -2,4 +2,9 @@
 .container{
     width: 150px;
     height: 150px;
+    opacity: .7;
 }
+
+.container:hover{
+    opacity: 1;
+}   

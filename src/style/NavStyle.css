@@ -51,6 +51,10 @@ main {
   line-height: normal;
 }
 
+.logo-box > img{
+  border-image: fill 0 linear-gradient(#0003, #000);
+}
+
 .links {
   display: grid;
   grid-template-columns: 1fr;

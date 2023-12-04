@@ -2,7 +2,7 @@ import React from "react";
 import "../style/NavStyle.css";
 import logo from "../images/logo.png";
 import Support from "./Support.jsx";
-import { NavLink } from "react-router-dom";
+import { NavLink, Outlet } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -81,9 +81,10 @@ function NavBar() {
               <span>Orders</span>
             </NavLink>
           </div>
-          <Support className="supports"/>
+          <Support className="supports" />
         </nav>
       </main>
+      <Outlet />
     </div>
   );
 }

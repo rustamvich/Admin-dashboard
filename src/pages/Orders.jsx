@@ -1,11 +1,11 @@
 import React from "react";
 import "../style/NavStyle.css";
-import NavBar from "./NavBar.jsx";
+// import NavBar from "./NavBar.jsx";
 
 function Orders() {
   return (
     <div className="main">
-      <NavBar />
+      {/* <NavBar /> */}
       <h1>Orders</h1>
     </div>
   );
